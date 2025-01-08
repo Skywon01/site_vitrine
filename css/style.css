@@ -1,0 +1,19 @@
+body{
+    background-size: cover;
+    background: url("../media/images/bread-1281053_1920.jpg") no-repeat;
+
+}
+
+.brand {
+    font-size: 165px;
+    font-weight: bolder;
+    color: black;
+}
+
+.first-section{
+    height: 95vh;
+}
+
+.footer-section{
+  height: 15vh;
+}
