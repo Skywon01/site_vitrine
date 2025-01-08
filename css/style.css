@@ -8,6 +8,7 @@ body{
     font-size: 165px;
     font-weight: bolder;
     color: black;
+    text-wrap: nowrap;
 
     @media screen and (max-width: 600px) {
         & {
