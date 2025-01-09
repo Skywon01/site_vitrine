@@ -1,6 +1,6 @@
 body{
     background-size: cover;
-    background: url("../media/images/bread-1281053_1920.jpg") no-repeat;
+    background: url("../media/images/bread-1281053_1920.jpg") ;
 
 }
 
@@ -24,4 +24,33 @@ body{
 
 .footer-section{
   height: 15vh;
+}
+
+.image-container-1 {
+    width: 300px; /* Carré */
+    height: 300px; /* Carré */
+    background-image: url('../media/images/culinary-3923667_1280.jpg');
+    background-size: cover; /* Remplit le cadre sans déformer */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite les répétitions */
+}
+.image-container-2 {
+    width: 300px; /* Carré */
+    height: 300px; /* Carré */
+    background-image: url('../media/images/culinary-3923687_1280.jpg');
+    background-size: cover; /* Remplit le cadre sans déformer */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite les répétitions */
+}
+.image-container-3 {
+    width: 300px; /* Carré */
+    height: 300px; /* Carré */
+    background-image: url('../media/images/galette-des-rois-1119699_1280.jpg');
+    background-size: cover; /* Remplit le cadre sans déformer */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite les répétitions */
+}
+
+.separator {
+    height: 30vh;
 }
