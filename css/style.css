@@ -23,7 +23,7 @@ body{
 }
 
 .footer-section{
-  height: 15vh;
+  min-height: 15vh;
 }
 
 .image-container-1 {
