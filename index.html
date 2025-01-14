@@ -5,7 +5,7 @@
     <meta name="description" content="Page d'accueil">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La mie dorée</title>
-    <link rel="icon" type="image/x-icon" href="media/icons/pain.png">
+    <link rel="icon" type="image/x-icon" href="media/icons/pain.png" class="favicon">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -14,7 +14,7 @@
 <header>
     <nav class="navbar navbar-dark navbar-expand-lg bg-black text-white">
         <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#">La Mie Dorée</a>
+            <a class="navbar-brand text-white brandName" href="#">La Mie Dorée</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,8 +32,14 @@
                            data-bs-target="#exampleModal">Nous
                             contacter</a>
                     </li>
-
+<li>
+    <select class="form-select" aria-label="Choisir une catégorie" onchange="updateCategory(this.value)">
+        <option value="boulanger">Boulangerie</option>
+        <option value="plombier">Plomberie</option>
+    </select>
+</li>
                 </ul>
+
             </div>
         </div>
     </nav>
@@ -70,18 +76,18 @@
     <section class="first-section">
         <div class="position-absolute top-50 start-50 translate-middle">
 
-            <h1 class="text-center brand ">La <br> Mie Dorée</h1>
-            <h2 class="text-center">Des saveurs authentiques, une tradition respectée.</h2>
+            <h1 class="text-center brand brandName">La <br> Mie Dorée</h1>
+            <h2 class="text-center slogan">Des saveurs authentiques, une tradition respectée.</h2>
         </div>
     </section>
     <section class="bg-white d-flex justify-content-center mb-5">
         <div class="d-md-inline-flex container justify-content-center align-items-center ">
             <div class="d-flex justify-content-center">
+<div class="mb-5 mt-5 person"></div>
 
-                <img src="media/images/ai-generated-9031330_1280.jpg" alt="Boulanger" class="w-75 mt-5 mb-5">
             </div>
             <div class="d-flex justify-content-center">
-                <p class="text-center mt-5 mb-5">Rencontrez Pierre, votre artisan boulanger.
+                <p class="text-center mt-5 mb-5 intro">Rencontrez Pierre, votre artisan boulanger.
                     Avec plus de 15 ans d’expérience, Pierre s’est donné pour mission de ravir vos papilles. Du pain
                     croustillant tout juste sorti du four aux pâtisseries fondantes, chaque création est une ode à la
                     tradition et à l’innovation.</p>
@@ -93,14 +99,14 @@
         <div class="separator"></div>
     </section>
     <section class="bg-white">
-        <p class="text-center pt-5 ps-5 pe-5">
+        <p class="text-center pt-5 ps-5 pe-5 description">
             Que vous soyez fan de baguettes, amoureux des croissants ou curieux de découvrir nos spécialités, La Mie
             Dorée vous accueille avec le sourire.
             <br><br>
             📍 Retrouvez-nous au cœur de Paris, à deux pas de la Seine, et laissez-vous tenter par l’odeur envoûtante du
             savoir-faire artisanal.
         </p>
-        <p class="text-center">📅 Nos horaires : <br>
+        <p class="text-center clock">📅 Nos horaires : <br>
             🕗 Lundi - Vendredi : 6h30 - 19h30 <br>
             🕗 Samedi : 6h30 - 18h00 <br>
             ❌ Dimanche : Fermé, car même les artisans méritent un jour de repos !</p>
@@ -124,11 +130,12 @@
         </div>
         <div class="container pt-2 w-md-25 pb-2">
 
-            <p>Adresse : 1 rue de Paris, 75001 Paris</p>
+            <p class="address">Adresse : 1 rue de Paris, 75001 Paris</p>
         </div>
 
     </section>
 </footer>
+<script src="js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

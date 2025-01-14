@@ -1,10 +1,10 @@
 body{
     background-size: cover;
-    background: url("../media/images/bread-1281053_1920.jpg") ;
+    background: url("../media/images/bakery/bread-1281053_1920.jpg") ;
 
 }
 
-.brand {
+.brandName {
     font-size: 165px;
     font-weight: bolder;
     color: black;
@@ -13,6 +13,7 @@ body{
     @media screen and (max-width: 600px) {
         & {
             font-size: 80px;
+            text-wrap: wrap;
         }
     }
 }
@@ -26,10 +27,19 @@ body{
   min-height: 15vh;
 }
 
+.person {
+    width: 300px; /* Carré */
+    height: 450px; /* Carré */
+    background-image: url("../media/images/bakery/ai-generated-9031330_1280.jpg");
+    background-size: cover; /* Remplit le cadre sans déformer */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite les répétitions */
+}
+
 .image-container-1 {
     width: 300px; /* Carré */
     height: 300px; /* Carré */
-    background-image: url('../media/images/culinary-3923667_1280.jpg');
+    background-image: url('../media/images/bakery/culinary-3923667_1280.jpg');
     background-size: cover; /* Remplit le cadre sans déformer */
     background-position: center; /* Centre l'image */
     background-repeat: no-repeat; /* Évite les répétitions */
@@ -37,7 +47,7 @@ body{
 .image-container-2 {
     width: 300px; /* Carré */
     height: 300px; /* Carré */
-    background-image: url('../media/images/culinary-3923687_1280.jpg');
+    background-image: url('../media/images/bakery/culinary-3923687_1280.jpg');
     background-size: cover; /* Remplit le cadre sans déformer */
     background-position: center; /* Centre l'image */
     background-repeat: no-repeat; /* Évite les répétitions */
@@ -45,7 +55,7 @@ body{
 .image-container-3 {
     width: 300px; /* Carré */
     height: 300px; /* Carré */
-    background-image: url('../media/images/galette-des-rois-1119699_1280.jpg');
+    background-image: url('../media/images/bakery/galette-des-rois-1119699_1280.jpg');
     background-size: cover; /* Remplit le cadre sans déformer */
     background-position: center; /* Centre l'image */
     background-repeat: no-repeat; /* Évite les répétitions */

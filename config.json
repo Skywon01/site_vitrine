@@ -1,0 +1,44 @@
+{
+  "boulanger": {
+    "body": "media/images/bakery/bread-1281053_1920.jpg",
+    "headerImage": "media/images/bakery/bread-1281053_1920.jpg",
+    "person": ["media/images/bakery/ai-generated-9031330_1280.jpg"],
+    "images": [
+      "media/images/bakery/culinary-3923667_1280.jpg",
+      "media/images/bakery/culinary-3923687_1280.jpg",
+      "media/images/bakery/galette-des-rois-1119699_1280.jpg"
+    ],
+    "primaryColor": "#f4a261",
+    "secondaryColor": "#e76f51",
+    "favicon": "media/icons/pain.png",
+    "texts": {
+      "brandName": "La Mie Dorée",
+      "slogan": "Des saveurs authentiques, une tradition respectée.",
+      "intro": "Rencontrez Pierre, votre artisan boulanger. Avec plus de 15 ans d’expérience, Pierre s’est donné pour mission de ravir vos papilles. Du pain croustillant tout juste sorti du four aux pâtisseries fondantes, chaque création est une ode à la tradition et à l’innovation.",
+      "address": "1 rue de Paris, 75001 Paris",
+      "description": "Que vous soyez fan de baguettes, amoureux des croissants ou curieux de découvrir nos spécialités, La Mie\n            Dorée vous accueille avec le sourire.\n            \n            \uD83D\uDCCD Retrouvez-nous au cœur de Paris, à deux pas de la Seine, et laissez-vous tenter par l’odeur envoûtante du\n            savoir-faire artisanal.",
+      "clock": "\uD83D\uDCC5 Nos horaires : \n            \uD83D\uDD57 Lundi - Vendredi : 6h30 - 19h30 \n            \uD83D\uDD57 Samedi : 6h30 - 18h00 \n            ❌ Dimanche : Fermé, car même les artisans méritent un jour de repos !"
+    }
+  },
+  "plombier": {
+    "body": "media/images/plumbing/water-5314502_1920.jpg",
+    "headerImage": "media/images/plumbing/plumbing-header.jpg",
+    "person": ["media/images/plumbing/ai-generated-8650513_1920.jpg"],
+    "images": [
+      "media/images/plumbing/water-tap-4575051_1920.jpg",
+      "media/images/plumbing/bathroom-1336164_1920.jpg",
+      "media/images/plumbing/pipes-2672184_1920.jpg"
+    ],
+    "primaryColor": "#0077b6",
+    "secondaryColor": "#023e8a",
+    "favicon": "media/icons/plomberie.png",
+    "texts": {
+      "brandName": "Plomberie Pro",
+      "slogan": "Votre expert en solutions durables.",
+      "intro": "Rencontrez Jacques, plombier qualifié. Avec plus de 20 ans d’expérience, Jacques s’engage à offrir des solutions fiables et durables. Que ce soit pour déboucher une canalisation, rénover une salle de bain ou intervenir en urgence, il conjugue expertise et passion pour répondre à vos besoins avec soin et professionnalisme.",
+      "address": "10 avenue des Plombiers, 75010 Paris",
+      "description": "Que vous ayez une fuite à réparer, un projet de rénovation, ou simplement besoin d’un conseil, Plomberie Jacques est là pour vous accompagner avec expertise et professionnalisme.\n\n\uD83D\uDCCD Basés au cœur de Paris, à proximité de la Seine, nous intervenons rapidement dans toute la région pour résoudre vos problèmes de plomberie, petits ou grands.",
+      "clock": "\uD83D\uDCC5 Nos horaires :\n\uD83D\uDD57 Lundi - Vendredi : 8h00 - 18h00\n\uD83D\uDD57 Samedi : 9h00 - 16h00\n❌ Dimanche : Fermé, car même les experts en plomberie méritent un jour de repos !"
+    }
+  }
+}
