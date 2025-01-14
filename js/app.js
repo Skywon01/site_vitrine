@@ -1,3 +1,17 @@
+const categorySelector = document.querySelector('.form-select');
+
+categorySelector.addEventListener('change', () => {
+    const mainContent = document.querySelector('main');
+    mainContent.classList.add('hidden'); // Cache le contenu actuel
+
+    setTimeout(() => {
+        // Charger les nouvelles données
+        const selectedCategory = categorySelector.value;
+        updateCategory(selectedCategory);
+
+        mainContent.classList.remove('hidden'); // Affiche le nouveau contenu
+    }, 1000); // Temps de transition pour le fade-out
+});
 function updateCategory(category) {
     // Charger la configuration correspondante
     fetch('config.json')

@@ -64,3 +64,14 @@ body{
 .separator {
     height: 30vh;
 }
+
+
+.hidden {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.visible {
+    opacity: 1;
+    transition: opacity 1s ease;
+}
